@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Categories — Dovelle Urban Forms | Interior Design & Architecture Journal</title>
+  <meta name="description" content="Browse all categories on Dovelle Urban Forms — interiors, architecture, materials, lighting, and urban design.">
+  <meta name="author" content="Dovelle Urban Forms">
+  <meta property="og:title" content="Categories — Dovelle Urban Forms">
+  <meta property="og:description" content="Explore our editorial categories covering architecture, interiors, and design.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.dovelleurbanforms.com/categories.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=630&fit=crop">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://www.dovelleurbanforms.com/categories.html">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Categories — Dovelle Urban Forms",
+    "description": "Browse all editorial categories on Dovelle Urban Forms.",
+    "url": "https://www.dovelleurbanforms.com/categories.html",
+    "publisher": { "@type": "Organization", "name": "Dovelle Urban Forms" }
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    /* RESET & BASE */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg: #faf9f7;
+      --surface: #ffffff;
+      --text: #1e1e1e;
+      --text-soft: #4a4a4a;
+      --text-muted: #6b6b6b;
+      --border: #e3e0db;
+      --accent: #9b6b4b;
+      --accent-light: #f5efe9;
+      --serif: 'Playfair Display', Georgia, serif;
+      --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --max-width: 1280px;
+      --article-width: 800px;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--sans);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img { max-width: 100%; height: auto; display: block; }
+    a { color: inherit; text-decoration: none; }
+
+    h1, h2, h3, h4 {
+      font-family: var(--serif);
+      font-weight: 500;
+      line-height: 1.25;
+      letter-spacing: -0.01em;
+    }
+
+    h1 { font-size: 2.6rem; }
+    h2 { font-size: 1.8rem; margin-bottom: 1rem; }
+    h3 { font-size: 1.3rem; margin-bottom: 0.75rem; }
+    h4 { font-size: 1.1rem; font-family: var(--sans); font-weight: 600; }
+
+    p { margin-bottom: 1.25rem; color: var(--text-soft); }
+
+    /* LAYOUT */
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* HEADER */
+    .site-header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 0;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .logo { display: flex; align-items: center; gap: 0.75rem; }
+
+    .logo-mark {
+      width: 40px;
+      height: 40px;
+      background: var(--text);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--serif);
+      font-size: 1.5rem;
+      font-weight: 600;
+      border-radius: 2px;
+    }
+
+    .logo-text {
+      font-family: var(--serif);
+      font-size: 1.4rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+    }
+
+    .logo-text span {
+      display: block;
+      font-family: var(--sans);
+      font-size: 0.6rem;
+      font-weight: 400;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .nav {
+      display: flex;
+      gap: 1.75rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+      flex-wrap: wrap;
+      list-style: none;
+    }
+
+    .nav a {
+      color: var(--text-soft);
+      transition: color 0.2s;
+      padding-bottom: 2px;
+      border-bottom: 1px solid transparent;
+    }
+
+    .nav a:hover,
+    .nav a.active {
+      color: var(--text);
+      border-bottom-color: var(--accent);
+    }
+
+    .search-wrap {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 40px;
+      padding: 0.4rem 0.8rem;
+    }
+
+    .search-wrap input {
+      border: none;
+      background: transparent;
+      font-family: var(--sans);
+      font-size: 0.85rem;
+      outline: none;
+      width: 140px;
+      color: var(--text);
+    }
+
+    .search-wrap button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    /* PAGE HEADER */
+    .page-header {
+      padding: 3rem 0 2rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 2.5rem;
+    }
+
+    .page-header h1 {
+      font-size: 2.8rem;
+      line-height: 1.2;
+      margin-bottom: 0.75rem;
+      max-width: 800px;
+    }
+
+    .page-header .subhead {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      max-width: 700px;
+      font-family: var(--serif);
+      font-style: italic;
+    }
+
+    /* CATEGORIES GRID */
+    .categories-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.75rem;
+      margin-bottom: 4rem;
+    }
+
+    .category-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow: hidden;
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .category-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px rgba(0,0,0,0.06);
+    }
+
+    .category-image {
+      width: 100%;
+      height: 200px;
+      background-size: cover;
+      background-position: center;
+      background-color: #eae7e2;
+      position: relative;
+    }
+
+    .category-image::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to bottom, transparent 50%, rgba(0,0,0,0.03));
+    }
+
+    .category-body {
+      padding: 1.5rem 1.5rem 1.75rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .category-body h3 {
+      font-size: 1.35rem;
+      margin-bottom: 0.4rem;
+      font-weight: 600;
+    }
+
+    .category-body p {
+      font-size: 0.92rem;
+      color: var(--text-muted);
+      margin-bottom: 1.25rem;
+      flex: 1;
+      line-height: 1.65;
+    }
+
+    .category-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+      padding-top: 1rem;
+      margin-top: auto;
+    }
+
+    .category-meta .count {
+      font-weight: 500;
+      color: var(--text-soft);
+    }
+
+    .category-meta .read-link {
+      color: var(--accent);
+      font-weight: 500;
+      transition: color 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+
+    .category-meta .read-link:hover {
+      color: var(--text);
+    }
+
+    .category-meta .read-link::after {
+      content: '→';
+      font-size: 0.9rem;
+      transition: transform 0.2s;
+    }
+
+    .category-meta .read-link:hover::after {
+      transform: translateX(3px);
+    }
+
+    /* FEATURED CATEGORY BANNER */
+    .featured-category {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 2.5rem;
+      margin-bottom: 2.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .featured-category .featured-text {
+      flex: 1 1 300px;
+    }
+
+    .featured-category .featured-text h2 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .featured-category .featured-text p {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      max-width: 500px;
+    }
+
+    .featured-category .featured-image {
+      flex: 1 1 300px;
+      height: 220px;
+      border-radius: 4px;
+      background-size: cover;
+      background-position: center;
+      background-color: #eae7e2;
+    }
+
+    .btn {
+      display: inline-block;
+      background: var(--text);
+      color: #fff;
+      padding: 0.65rem 1.5rem;
+      font-size: 0.85rem;
+      font-weight: 500;
+      border-radius: 40px;
+      transition: background 0.2s, transform 0.2s;
+      border: none;
+      cursor: pointer;
+      font-family: var(--sans);
+      letter-spacing: 0.01em;
+    }
+
+    .btn:hover {
+      background: var(--accent);
+      transform: translateY(-1px);
+    }
+
+    /* FOOTER */
+    .site-footer {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      padding: 3rem 0 2rem;
+      margin-top: 3rem;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 2.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .footer-brand p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      max-width: 300px;
+      margin-top: 0.75rem;
+    }
+
+    .footer-col h4 {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+      font-family: var(--sans);
+      font-weight: 600;
+    }
+
+    .footer-col ul { list-style: none; margin: 0; padding: 0; }
+    .footer-col li { margin-bottom: 0.5rem; font-size: 0.9rem; }
+
+    .footer-col a {
+      color: var(--text-soft);
+      transition: color 0.2s;
+      text-decoration: none;
+    }
+
+    .footer-col a:hover { color: var(--accent); }
+
+    .footer-bottom {
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 1024px) {
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 700px) {
+      h1 { font-size: 2rem; }
+      .page-header h1 { font-size: 2rem; }
+      .header-inner { flex-direction: column; align-items: flex-start; }
+      .nav { gap: 1rem; font-size: 0.8rem; padding-left: 0; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .footer-bottom { flex-direction: column; text-align: center; }
+      .search-wrap input { width: 100px; }
+      .featured-category { padding: 1.75rem; }
+      .featured-category .featured-text h2 { font-size: 1.5rem; }
+      .categories-grid { grid-template-columns: 1fr; }
+    }
+
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo" aria-label="Dovelle Urban Forms home">
+      <div class="logo-mark">D</div>
+      <div class="logo-text">Dovelle<span>Urban Forms</span></div>
+    </a>
+    <nav class="nav" aria-label="Main navigation">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="terms.html">Terms Of Privacy</a></li>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="cookies.html">Cookies Policy</a></li>
+      <li><a href="disclaimer.html">Disclaimer</a></li>
+      <li><a href="categories.html" class="active">Categories</a></li>
+    </nav>
+    <div class="search-wrap">
+      <input type="text" id="searchInput" placeholder="Search articles..." aria-label="Search articles">
+      <button id="searchBtn" aria-label="Submit search">⌕</button>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <h1>Categories</h1>
+    <p class="subhead">Explore our editorial sections — from interior design and architecture to materials, lighting, and urban form.</p>
+  </section>
+
+  <!-- FEATURED CATEGORY -->
+  <section class="featured-category">
+    <div class="featured-text">
+      <span style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.12em; color:var(--text-muted); font-weight:600; display:block; margin-bottom:0.5rem;">Featured Section</span>
+      <h2>Architecture</h2>
+      <p>Critical essays, building studies, and conversations about the structures that shape our cities — from adaptive reuse to new public spaces.</p>
+      <a href="index.html#architecture" class="btn">Browse architecture →</a>
+    </div>
+    <div class="featured-image" style="background-image: url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&h=500&fit=crop');" role="img" aria-label="Modern architecture building"></div>
+  </section>
+
+  <!-- CATEGORIES GRID -->
+  <div class="categories-grid">
+
+    <!-- Interiors -->
+    <article class="category-card">
+      <div class="category-image" style="background-image: url('https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=600&h=400&fit=crop');" role="img" aria-label="Interior living space"></div>
+      <div class="category-body">
+        <h3>Interiors</h3>
+        <p>Residential and commercial interiors, styling ideas, spatial planning, and the details that make a room feel complete.</p>
+        <div class="category-meta">
+          <span class="count">24 articles</span>
+          <a href="index.html#interiors" class="read-link">Explore</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Architecture -->
+    <article class="category-card">
+      <div class="category-image" style="background-image: url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=600&h=400&fit=crop');" role="img" aria-label="Modern architecture building"></div>
+      <div class="category-body">
+        <h3>Architecture</h3>
+        <p>Building studies, urban planning, adaptive reuse, and the ideas shaping contemporary architectural practice.</p>
+        <div class="category-meta">
+          <span class="count">18 articles</span>
+          <a href="index.html#architecture" class="read-link">Explore</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Materials -->
+    <article class="category-card">
+      <div class="category-image" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop');" role="img" aria-label="Material textures wood and stone"></div>
+      <div class="category-body">
+        <h3>Materials</h3>
+        <p>Stone, timber, concrete, glass, and emerging sustainable materials — how they perform, age, and transform spaces.</p>
+        <div class="category-meta">
+          <span class="count">15 articles</span>
+          <a href="index.html#materials" class="read-link">Explore</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Lighting -->
+    <article class="category-card">
+      <div class="category-image" style="background-image: url('https://images.unsplash.com/photo-1565814329452-e1efa11c5b89?w=600&h=400&fit=crop');" role="img" aria-label="Architectural lighting fixture"></div>
+      <div class="category-body">
+        <h3>Lighting</h3>
+        <p>Natural and artificial light, fixture design, and the role of illumination in shaping atmosphere and function.</p>
+        <div class="category-meta">
+          <span class="count">12 articles</span>
+          <a href="index.html#lighting" class="read-link">Explore</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Urban Design -->
+    <article class="category-card">
+      <div class="category-image" style="background-image: url('https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=600&h=400&fit=crop');" role="img" aria-label="City skyline at dusk"></div>
+      <div class="category-body">
+        <h3>Urban Design</h3>
+        <p>Public space, streetscapes, density, and the systems that make cities more livable and equitable.</p>
+        <div class="category-meta">
+          <span class="count">9 articles</span>
+          <a href="index.html#urban" class="read-link">Explore</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Adaptive Reuse -->
+    <article class="category-card">
+      <div class="category-image" style="background-image: url('https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=600&h=400&fit=crop');" role="img" aria-label="Renovated industrial building"></div>
+      <div class="category-body">
+        <h3>Adaptive Reuse</h3>
+        <p>Old buildings, new purposes — warehouses, factories, and heritage structures given a second life.</p>
+        <div class="category-meta">
+          <span class="count">7 articles</span>
+          <a href="index.html#reuse" class="read-link">Explore</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Sustainability -->
+    <article class="category-card">
+      <div class="category-image" style="background-image: url('https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=600&h=400&fit=crop');" role="img" aria-label="Green building with plants"></div>
+      <div class="category-body">
+        <h3>Sustainability</h3>
+        <p>Passive design, low-carbon materials, energy efficiency, and the environmental responsibilities of building.</p>
+        <div class="category-meta">
+          <span class="count">11 articles</span>
+          <a href="index.html#sustainability" class="read-link">Explore</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Profiles & Interviews -->
+    <article class="category-card">
+      <div class="category-image" style="background-image: url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=400&fit=crop');" role="img" aria-label="Architect in studio"></div>
+      <div class="category-body">
+        <h3>Profiles & Interviews</h3>
+        <p>Conversations with architects, designers, makers, and thinkers who are shaping the built environment.</p>
+        <div class="category-meta">
+          <span class="count">14 articles</span>
+          <a href="index.html#profiles" class="read-link">Explore</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Essays & Criticism -->
+    <article class="category-card">
+      <div class="category-image" style="background-image: url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=600&h=400&fit=crop');" role="img" aria-label="Open book with pen"></div>
+      <div class="category-body">
+        <h3>Essays & Criticism</h3>
+        <p>Long-form reflections on taste, design culture, and the forces that influence how we build and live.</p>
+        <div class="category-meta">
+          <span class="count">20 articles</span>
+          <a href="index.html#essays" class="read-link">Explore</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo" style="margin-bottom: 0.5rem;">
+          <div class="logo-mark" style="width:32px; height:32px; font-size:1.1rem;">D</div>
+          <div class="logo-text" style="font-size:1.1rem;">Dovelle<span style="font-size:0.5rem;">Urban Forms</span></div>
+        </div>
+        <p>An independent editorial publication about interior design, architecture, and the built environment.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Sections</h4>
+        <ul>
+          <li><a href="index.html#interiors">Interiors</a></li>
+          <li><a href="index.html#architecture">Architecture</a></li>
+          <li><a href="index.html#materials">Materials</a></li>
+          <li><a href="index.html#lighting">Lighting</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Information</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="terms.html">Terms</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Follow</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Pinterest</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">RSS</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Dovelle Urban Forms. All rights reserved.</span>
+      <span>Made for readers, not algorithms.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- JAVASCRIPT -->
+<script>
+  (function() {
+    const searchInput = document.getElementById('searchInput');
+    const searchBtn = document.getElementById('searchBtn');
+
+    function performSearch() {
+      const query = searchInput.value.trim().toLowerCase();
+      if (!query) {
+        alert('Please enter a search term.');
+        return;
+      }
+      alert('Searching for: "' + query + '"\n\nIn a full site, this would redirect to the homepage with search results.');
+    }
+
+    searchBtn.addEventListener('click', performSearch);
+    searchInput.addEventListener('keyup', (e) => {
+      if (e.key === 'Enter') performSearch();
+    });
+  })();
+</script>
+
+</body>
+</html>

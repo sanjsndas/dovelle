@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Service — Dovelle Urban Forms | Interior Design & Architecture Journal</title>
+  <meta name="description" content="Terms of Service for Dovelle Urban Forms — an independent editorial publication covering architecture, interiors, and design.">
+  <meta name="author" content="Dovelle Urban Forms">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Terms of Service — Dovelle Urban Forms">
+  <meta property="og:description" content="Read the terms and conditions for using Dovelle Urban Forms.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.dovelleurbanforms.com/terms.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=630&fit=crop">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://www.dovelleurbanforms.com/terms.html">
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Terms of Service — Dovelle Urban Forms",
+    "description": "Terms of Service for Dovelle Urban Forms editorial publication.",
+    "url": "https://www.dovelleurbanforms.com/terms.html",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Dovelle Urban Forms"
+    }
+  }
+  </script>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    /* RESET & BASE */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --bg: #faf9f7;
+      --surface: #ffffff;
+      --text: #1e1e1e;
+      --text-soft: #4a4a4a;
+      --text-muted: #6b6b6b;
+      --border: #e3e0db;
+      --accent: #9b6b4b;
+      --accent-light: #f5efe9;
+      --serif: 'Playfair Display', Georgia, serif;
+      --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --max-width: 1280px;
+      --article-width: 800px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: var(--sans);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* TYPOGRAPHY */
+    h1, h2, h3, h4 {
+      font-family: var(--serif);
+      font-weight: 500;
+      line-height: 1.25;
+      letter-spacing: -0.01em;
+    }
+
+    h1 { font-size: 2.6rem; }
+    h2 { font-size: 1.8rem; margin-bottom: 1rem; }
+    h3 { font-size: 1.3rem; margin-bottom: 0.75rem; }
+    h4 { font-size: 1.1rem; font-family: var(--sans); font-weight: 600; }
+
+    p {
+      margin-bottom: 1.25rem;
+      color: var(--text-soft);
+    }
+
+    /* LAYOUT */
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* HEADER */
+    .site-header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 0;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .logo-mark {
+      width: 40px;
+      height: 40px;
+      background: var(--text);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--serif);
+      font-size: 1.5rem;
+      font-weight: 600;
+      border-radius: 2px;
+    }
+
+    .logo-text {
+      font-family: var(--serif);
+      font-size: 1.4rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+    }
+
+    .logo-text span {
+      display: block;
+      font-family: var(--sans);
+      font-size: 0.6rem;
+      font-weight: 400;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .nav {
+      display: flex;
+      gap: 1.75rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+      flex-wrap: wrap;
+      list-style: none;
+    }
+
+    .nav a {
+      color: var(--text-soft);
+      transition: color 0.2s;
+      padding-bottom: 2px;
+      border-bottom: 1px solid transparent;
+    }
+
+    .nav a:hover,
+    .nav a.active {
+      color: var(--text);
+      border-bottom-color: var(--accent);
+    }
+
+    .search-wrap {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 40px;
+      padding: 0.4rem 0.8rem;
+    }
+
+    .search-wrap input {
+      border: none;
+      background: transparent;
+      font-family: var(--sans);
+      font-size: 0.85rem;
+      outline: none;
+      width: 140px;
+      color: var(--text);
+    }
+
+    .search-wrap button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    /* PAGE HEADER */
+    .page-header {
+      padding: 3rem 0 2rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 2.5rem;
+    }
+
+    .page-header h1 {
+      font-size: 2.8rem;
+      line-height: 1.2;
+      margin-bottom: 0.75rem;
+      max-width: 800px;
+    }
+
+    .page-header .subhead {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      max-width: 700px;
+      font-family: var(--serif);
+      font-style: italic;
+    }
+
+    .page-header .last-updated {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-top: 0.75rem;
+      font-family: var(--sans);
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    /* TERMS CONTENT */
+    .terms-content {
+      max-width: var(--article-width);
+      margin: 0 auto 4rem;
+    }
+
+    .terms-content h2 {
+      font-size: 1.6rem;
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .terms-content h2:first-of-type {
+      margin-top: 0;
+    }
+
+    .terms-content p {
+      font-size: 1.02rem;
+      line-height: 1.75;
+      margin-bottom: 1.25rem;
+    }
+
+    .terms-content ul,
+    .terms-content ol {
+      margin: 1rem 0 1.5rem 1.5rem;
+      color: var(--text-soft);
+    }
+
+    .terms-content li {
+      margin-bottom: 0.6rem;
+      line-height: 1.7;
+      font-size: 1rem;
+    }
+
+    .terms-content strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    .terms-content a {
+      color: var(--accent);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      transition: color 0.2s;
+    }
+
+    .terms-content a:hover {
+      color: var(--text);
+    }
+
+    .terms-content .highlight-box {
+      background: var(--surface);
+      border-left: 3px solid var(--accent);
+      padding: 1.5rem 1.8rem;
+      margin: 2rem 0;
+      border-radius: 0 6px 6px 0;
+    }
+
+    .terms-content .highlight-box p {
+      margin-bottom: 0;
+      font-size: 0.95rem;
+      color: var(--text-soft);
+    }
+
+    /* FOOTER */
+    .site-footer {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      padding: 3rem 0 2rem;
+      margin-top: 3rem;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 2.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .footer-brand p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      max-width: 300px;
+      margin-top: 0.75rem;
+    }
+
+    .footer-col h4 {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+      font-family: var(--sans);
+      font-weight: 600;
+    }
+
+    .footer-col ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .footer-col li {
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+    }
+
+    .footer-col a {
+      color: var(--text-soft);
+      transition: color 0.2s;
+      text-decoration: none;
+    }
+
+    .footer-col a:hover {
+      color: var(--accent);
+    }
+
+    .footer-bottom {
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 1024px) {
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 700px) {
+      h1 { font-size: 2rem; }
+      .page-header h1 { font-size: 2rem; }
+      .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .nav {
+        gap: 1rem;
+        font-size: 0.8rem;
+        padding-left: 0;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+      .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+      }
+      .search-wrap input {
+        width: 100px;
+      }
+      .terms-content h2 {
+        font-size: 1.4rem;
+      }
+    }
+
+    /* UTILITY */
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo" aria-label="Dovelle Urban Forms home">
+      <div class="logo-mark">D</div>
+      <div class="logo-text">Dovelle<span>Urban Forms</span></div>
+    </a>
+    <nav class="nav" aria-label="Main navigation">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="terms.html" class="active">Terms Of Privacy</a></li>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="cookies.html">Cookies Policy</a></li>
+      <li><a href="disclaimer.html">Disclaimer</a></li>
+      <li><a href="categories.html">Categories</a></li>
+    </nav>
+    <div class="search-wrap">
+      <input type="text" id="searchInput" placeholder="Search articles..." aria-label="Search articles">
+      <button id="searchBtn" aria-label="Submit search">⌕</button>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <h1>Terms of Service</h1>
+    <p class="subhead">The rules and guidelines for using Dovelle Urban Forms.</p>
+    <p class="last-updated">Last updated: 1 January 2026</p>
+  </section>
+
+  <!-- TERMS CONTENT -->
+  <div class="terms-content">
+
+    <div class="highlight-box">
+      <p><strong>Summary:</strong> By accessing or using Dovelle Urban Forms, you agree to these terms. Our content is for general information only. We are not liable for any decisions made based on our articles. All content is our intellectual property. Please read the full terms below.</p>
+    </div>
+
+    <h2>1. Acceptance of Terms</h2>
+    <p>Welcome to Dovelle Urban Forms ("we," "our," "us," or "the Website"). By accessing or using our website located at <a href="https://www.dovelleurbanforms.com">www.dovelleurbanforms.com</a> (the "Site"), you agree to be bound by these Terms of Service (the "Terms"). If you do not agree to these Terms, please do not use the Site.</p>
+    <p>We reserve the right to update or modify these Terms at any time without prior notice. Your continued use of the Site after any changes constitutes acceptance of the revised Terms. We encourage you to review this page periodically.</p>
+
+    <h2>2. Use of Content</h2>
+    <p>All content published on Dovelle Urban Forms — including but not limited to articles, essays, guides, photographs, illustrations, graphics, logos, and the overall design of the Site — is the intellectual property of Dovelle Urban Forms or its content creators and is protected by international copyright and intellectual property laws.</p>
+    <p>You may:</p>
+    <ul>
+      <li>Read, share, and link to our articles for personal, non-commercial purposes.</li>
+      <li>Quote short excerpts (up to 100 words) with clear attribution and a link back to the original article.</li>
+      <li>Print or download content for your own personal, non-commercial use.</li>
+    </ul>
+    <p>You may not:</p>
+    <ul>
+      <li>Republish, reproduce, or redistribute substantial portions of our content without prior written permission.</li>
+      <li>Use our content for commercial purposes, including training AI models, without explicit authorization.</li>
+      <li>Modify, adapt, or create derivative works from our content.</li>
+      <li>Remove or alter any copyright, trademark, or attribution notices.</li>
+      <li>Frame or mirror any part of the Site without our prior written consent.</li>
+    </ul>
+    <p>To request permission for reuse, please contact us at <a href="mailto:editors@dovelleurbanforms.com">editors@dovelleurbanforms.com</a>.</p>
+
+    <h2>3. User Conduct</h2>
+    <p>By using the Site, you agree not to:</p>
+    <ul>
+      <li>Use the Site for any unlawful purpose or in violation of any applicable laws.</li>
+      <li>Attempt to gain unauthorized access to our servers, databases, or systems.</li>
+      <li>Interfere with or disrupt the Site's operation or security features.</li>
+      <li>Submit or transmit any harmful code, viruses, or malicious software.</li>
+      <li>Harass, threaten, or defame any person or entity through comments or communications.</li>
+      <li>Scrape, harvest, or collect user information without consent.</li>
+    </ul>
+    <p>We reserve the right to restrict or terminate access to the Site for any user who violates these provisions.</p>
+
+    <h2>4. No Professional Advice</h2>
+    <p>The content on Dovelle Urban Forms is provided for general informational and educational purposes only. It is not intended as professional architectural, engineering, interior design, legal, or financial advice.</p>
+    <p>While we strive to publish accurate and useful information, we make no representations or warranties regarding the completeness, accuracy, reliability, or suitability of any content. Any reliance you place on the information provided is strictly at your own risk.</p>
+    <p>You should always consult with a qualified professional before making decisions about building, renovating, or designing a space.</p>
+
+    <h2>5. Disclaimer of Warranties</h2>
+    <p>The Site and its content are provided on an "as is" and "as available" basis without warranties of any kind, either express or implied, including but not limited to:</p>
+    <ul>
+      <li>Warranties of merchantability, fitness for a particular purpose, or non-infringement.</li>
+      <li>Warranties that the Site will be uninterrupted, error-free, or free of viruses.</li>
+      <li>Warranties regarding the accuracy, reliability, or completeness of any content.</li>
+    </ul>
+
+    <h2>6. Limitation of Liability</h2>
+    <p>To the fullest extent permitted by law, Dovelle Urban Forms, its editors, contributors, and affiliates shall not be liable for any direct, indirect, incidental, consequential, special, or exemplary damages arising from:</p>
+    <ul>
+      <li>Your use of or inability to use the Site.</li>
+      <li>Any errors or omissions in the content.</li>
+      <li>Any decisions made based on the information provided on the Site.</li>
+      <li>Any unauthorized access to or alteration of your transmissions or data.</li>
+    </ul>
+
+    <h2>7. Third-Party Links</h2>
+    <p>The Site may contain links to third-party websites, resources, or services. These links are provided for your convenience only. We do not endorse, control, or assume responsibility for the content, privacy practices, or accuracy of any third-party sites. Your use of third-party sites is at your own risk.</p>
+
+    <h2>8. Advertising and Sponsorship</h2>
+    <p>Dovelle Urban Forms may display advertisements or sponsored content. We clearly label sponsored content as such. However, we do not endorse any products or services advertised on the Site unless explicitly stated. Any transactions you enter into with advertisers are solely between you and the advertiser.</p>
+
+    <h2>9. Privacy</h2>
+    <p>Your use of the Site is also governed by our <a href="privacy.html">Privacy Policy</a> and <a href="cookies.html">Cookies Policy</a>. Please review these documents to understand how we collect, use, and protect your personal information.</p>
+
+    <h2>10. Indemnification</h2>
+    <p>You agree to indemnify, defend, and hold harmless Dovelle Urban Forms, its editors, contributors, and affiliates from and against any claims, damages, losses, liabilities, and expenses (including reasonable legal fees) arising out of or related to your use of the Site or your violation of these Terms.</p>
+
+    <h2>11. Termination</h2>
+    <p>We reserve the right to terminate or suspend your access to the Site at our sole discretion, without notice, for conduct that we believe violates these Terms or is harmful to other users, us, or third parties.</p>
+
+    <h2>12. Governing Law</h2>
+    <p>These Terms shall be governed by and construed in accordance with the laws of England and Wales, without regard to its conflict of law provisions. Any disputes arising under these Terms shall be subject to the exclusive jurisdiction of the courts of England and Wales.</p>
+
+    <h2>13. Severability</h2>
+    <p>If any provision of these Terms is found to be unlawful, void, or unenforceable, that provision shall be deemed severable and shall not affect the validity and enforceability of the remaining provisions.</p>
+
+    <h2>14. Contact Us</h2>
+    <p>If you have any questions about these Terms of Service, please contact us at:</p>
+    <p>
+      <strong>Dovelle Urban Forms</strong><br>
+      Email: <a href="mailto:editors@dovelleurbanforms.com">editors@dovelleurbanforms.com</a><br>
+      Website: <a href="https://www.dovelleurbanforms.com">www.dovelleurbanforms.com</a>
+    </p>
+
+    <div class="highlight-box" style="margin-top: 2.5rem;">
+      <p><strong>Thank you</strong> for reading Dovelle Urban Forms. We are committed to providing thoughtful, independent, and useful design journalism. If you have any feedback or concerns, please do not hesitate to reach out.</p>
+    </div>
+
+  </div>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo" style="margin-bottom: 0.5rem;">
+          <div class="logo-mark" style="width:32px; height:32px; font-size:1.1rem;">D</div>
+          <div class="logo-text" style="font-size:1.1rem;">Dovelle<span style="font-size:0.5rem;">Urban Forms</span></div>
+        </div>
+        <p>An independent editorial publication about interior design, architecture, and the built environment.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Sections</h4>
+        <ul>
+          <li><a href="index.html#interiors">Interiors</a></li>
+          <li><a href="index.html#architecture">Architecture</a></li>
+          <li><a href="index.html#materials">Materials</a></li>
+          <li><a href="index.html#lighting">Lighting</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Information</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="terms.html">Terms</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Follow</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Pinterest</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">RSS</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Dovelle Urban Forms. All rights reserved.</span>
+      <span>Made for readers, not algorithms.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- JAVASCRIPT -->
+<script>
+  (function() {
+    // ---- SEARCH FUNCTIONALITY ----
+    const searchInput = document.getElementById('searchInput');
+    const searchBtn = document.getElementById('searchBtn');
+
+    function performSearch() {
+      const query = searchInput.value.trim().toLowerCase();
+      if (!query) {
+        alert('Please enter a search term.');
+        return;
+      }
+      // On the Terms page, alert the user or redirect to the homepage with the query.
+      alert('Searching for: "' + query + '"\n\nIn a full site, this would redirect to the homepage with search results.');
+    }
+
+    searchBtn.addEventListener('click', performSearch);
+    searchInput.addEventListener('keyup', (e) => {
+      if (e.key === 'Enter') performSearch();
+    });
+  })();
+</script>
+
+</body>
+</html>

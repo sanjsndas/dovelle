@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Dovelle Urban Forms | Interior Design & Architecture Journal</title>
+  <meta name="description" content="About Dovelle Urban Forms — an independent editorial publication exploring residential architecture, interior design, space planning, materials, lighting, and the art of living well.">
+  <meta name="author" content="Dovelle Urban Forms">
+  <!-- Open Graph -->
+  <meta property="og:title" content="About — Dovelle Urban Forms">
+  <meta property="og:description" content="Learn about our independent editorial publication covering architecture, interiors, and the design of modern living.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.dovelleurbanforms.com/about.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=630&fit=crop">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://www.dovelleurbanforms.com/about.html">
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About Dovelle Urban Forms",
+    "description": "Dovelle Urban Forms is an independent editorial publication about interior design, architecture, and the built environment.",
+    "url": "https://www.dovelleurbanforms.com/about.html",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Dovelle Urban Forms"
+    }
+  }
+  </script>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    /* RESET & BASE */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --bg: #faf9f7;
+      --surface: #ffffff;
+      --text: #1e1e1e;
+      --text-soft: #4a4a4a;
+      --text-muted: #6b6b6b;
+      --border: #e3e0db;
+      --accent: #9b6b4b;
+      --accent-light: #f5efe9;
+      --serif: 'Playfair Display', Georgia, serif;
+      --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --max-width: 1280px;
+      --article-width: 720px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: var(--sans);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      font-size: 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* TYPOGRAPHY */
+    h1, h2, h3, h4 {
+      font-family: var(--serif);
+      font-weight: 500;
+      line-height: 1.25;
+      letter-spacing: -0.01em;
+    }
+
+    h1 { font-size: 2.6rem; }
+    h2 { font-size: 2rem; margin-bottom: 1rem; }
+    h3 { font-size: 1.4rem; margin-bottom: 0.75rem; }
+    h4 { font-size: 1.1rem; font-family: var(--sans); font-weight: 600; }
+
+    p {
+      margin-bottom: 1.25rem;
+      color: var(--text-soft);
+    }
+
+    /* LAYOUT */
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* HEADER */
+    .site-header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 0;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .logo-mark {
+      width: 40px;
+      height: 40px;
+      background: var(--text);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--serif);
+      font-size: 1.5rem;
+      font-weight: 600;
+      border-radius: 2px;
+    }
+
+    .logo-text {
+      font-family: var(--serif);
+      font-size: 1.4rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+    }
+
+    .logo-text span {
+      display: block;
+      font-family: var(--sans);
+      font-size: 0.6rem;
+      font-weight: 400;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .nav {
+      display: flex;
+      gap: 1.75rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+      flex-wrap: wrap;
+    }
+
+    .nav a {
+      color: var(--text-soft);
+      transition: color 0.2s;
+      padding-bottom: 2px;
+      border-bottom: 1px solid transparent;
+    }
+
+    .nav a:hover,
+    .nav a.active {
+      color: var(--text);
+      border-bottom-color: var(--accent);
+    }
+
+    .search-wrap {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 40px;
+      padding: 0.4rem 0.8rem;
+    }
+
+    .search-wrap input {
+      border: none;
+      background: transparent;
+      font-family: var(--sans);
+      font-size: 0.85rem;
+      outline: none;
+      width: 140px;
+      color: var(--text);
+    }
+
+    .search-wrap button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    /* PAGE HEADER */
+    .page-header {
+      padding: 3rem 0 2rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 2.5rem;
+    }
+
+    .page-header h1 {
+      font-size: 2.8rem;
+      line-height: 1.2;
+      margin-bottom: 0.75rem;
+      max-width: 800px;
+    }
+
+    .page-header .subhead {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      max-width: 700px;
+      font-family: var(--serif);
+      font-style: italic;
+    }
+
+    /* ABOUT CONTENT */
+    .about-section {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 3.5rem;
+      margin: 3rem 0 4rem;
+      align-items: start;
+    }
+
+    .about-text h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      margin-top: 2rem;
+    }
+
+    .about-text h2:first-of-type {
+      margin-top: 0;
+    }
+
+    .about-text p {
+      font-size: 1.05rem;
+      line-height: 1.75;
+      margin-bottom: 1.5rem;
+    }
+
+    .about-text .lead {
+      font-size: 1.2rem;
+      font-family: var(--serif);
+      font-style: italic;
+      color: var(--text);
+      border-left: 3px solid var(--accent);
+      padding-left: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .about-sidebar {
+      position: sticky;
+      top: 100px;
+    }
+
+    .about-sidebar .sidebar-block {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 1.8rem;
+      margin-bottom: 2rem;
+    }
+
+    .about-sidebar .sidebar-block h4 {
+      font-family: var(--sans);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--text-muted);
+      margin-bottom: 1.2rem;
+      font-weight: 600;
+    }
+
+    .about-sidebar .sidebar-about {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    .about-sidebar .sidebar-about strong {
+      color: var(--text);
+      font-family: var(--serif);
+    }
+
+    .about-sidebar .sidebar-list {
+      list-style: none;
+    }
+
+    .about-sidebar .sidebar-list li {
+      padding: 0.6rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.9rem;
+    }
+
+    .about-sidebar .sidebar-list li:last-child {
+      border-bottom: none;
+    }
+
+    .about-sidebar .sidebar-list a {
+      color: var(--text-soft);
+      transition: color 0.2s;
+    }
+
+    .about-sidebar .sidebar-list a:hover {
+      color: var(--accent);
+    }
+
+    /* VALUES GRID */
+    .values-section {
+      margin: 4rem 0;
+      padding-top: 2rem;
+      border-top: 2px solid var(--text);
+    }
+
+    .values-section h2 {
+      font-size: 2.2rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .values-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+
+    .value-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 2rem;
+    }
+
+    .value-card .value-icon {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      display: block;
+      color: var(--accent);
+    }
+
+    .value-card h3 {
+      font-size: 1.2rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .value-card p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 0;
+    }
+
+    /* TEAM SECTION */
+    .team-section {
+      margin: 4rem 0;
+    }
+
+    .team-section h2 {
+      font-size: 2.2rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.5rem;
+    }
+
+    .team-member {
+      text-align: center;
+    }
+
+    .team-member .member-photo {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      margin: 0 auto 1.2rem;
+      background-size: cover;
+      background-position: center;
+      border: 3px solid var(--surface);
+      box-shadow: 0 8px 24px -8px rgba(0,0,0,0.1);
+    }
+
+    .team-member h3 {
+      font-size: 1.2rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .team-member .role {
+      font-size: 0.85rem;
+      color: var(--accent);
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.75rem;
+    }
+
+    .team-member p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      max-width: 280px;
+      margin: 0 auto;
+    }
+
+    /* EDITORIAL PROCESS */
+    .process-section {
+      margin: 4rem 0;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .process-section h2 {
+      font-size: 2.2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .process-list {
+      list-style: none;
+      counter-reset: process-counter;
+      max-width: var(--article-width);
+    }
+
+    .process-list li {
+      counter-increment: process-counter;
+      padding: 1.2rem 0 1.2rem 3.5rem;
+      border-bottom: 1px solid var(--border);
+      position: relative;
+      font-size: 1.02rem;
+      color: var(--text-soft);
+      line-height: 1.6;
+    }
+
+    .process-list li::before {
+      content: counter(process-counter, decimal-leading-zero);
+      position: absolute;
+      left: 0;
+      top: 1.2rem;
+      font-family: var(--serif);
+      font-size: 1.3rem;
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .process-list li strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    /* NEWSLETTER */
+    .newsletter {
+      background: var(--text);
+      color: #fff;
+      border-radius: 8px;
+      padding: 3rem;
+      margin: 4rem 0;
+      text-align: center;
+    }
+
+    .newsletter h2 {
+      color: #fff;
+      font-size: 2rem;
+    }
+
+    .newsletter p {
+      color: rgba(255,255,255,0.7);
+      max-width: 500px;
+      margin: 0.75rem auto 1.5rem;
+    }
+
+    .newsletter form {
+      display: flex;
+      gap: 0.75rem;
+      max-width: 440px;
+      margin: 0 auto;
+    }
+
+    .newsletter input {
+      flex: 1;
+      padding: 0.8rem 1.2rem;
+      border: none;
+      border-radius: 40px;
+      font-family: var(--sans);
+      font-size: 0.9rem;
+      outline: none;
+    }
+
+    .newsletter button {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      padding: 0.8rem 1.8rem;
+      border-radius: 40px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: background 0.2s;
+      font-family: var(--sans);
+    }
+
+    .newsletter button:hover {
+      background: #7a5238;
+    }
+
+    /* CONTACT CARD */
+    .contact-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 2.5rem;
+      margin: 4rem 0;
+      text-align: center;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .contact-card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .contact-card p {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+    }
+
+    .contact-card .contact-links {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      font-size: 0.9rem;
+    }
+
+    .contact-card .contact-links a {
+      color: var(--accent);
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    .contact-card .contact-links a:hover {
+      color: var(--text);
+    }
+
+    /* FOOTER */
+    .site-footer {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      padding: 3rem 0 2rem;
+      margin-top: 3rem;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 2.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .footer-brand p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      max-width: 300px;
+      margin-top: 0.75rem;
+    }
+
+    .footer-col h4 {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+      font-family: var(--sans);
+      font-weight: 600;
+    }
+
+    .footer-col ul {
+      list-style: none;
+    }
+
+    .footer-col li {
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+    }
+
+    .footer-col a {
+      color: var(--text-soft);
+      transition: color 0.2s;
+    }
+
+    .footer-col a:hover {
+      color: var(--accent);
+    }
+
+    .footer-bottom {
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 1024px) {
+      .about-section {
+        grid-template-columns: 1fr;
+      }
+      .about-sidebar {
+        position: static;
+      }
+      .values-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 700px) {
+      h1 { font-size: 2rem; }
+      .page-header h1 { font-size: 2rem; }
+      .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .nav {
+        gap: 1rem;
+        font-size: 0.8rem;
+      }
+      .values-grid {
+        grid-template-columns: 1fr;
+      }
+      .team-grid {
+        grid-template-columns: 1fr;
+      }
+      .newsletter form {
+        flex-direction: column;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+      .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+      }
+      .search-wrap input {
+        width: 100px;
+      }
+      .about-text .lead {
+        padding-left: 1rem;
+        font-size: 1.1rem;
+      }
+      .contact-card {
+        padding: 1.8rem;
+      }
+      .contact-card .contact-links {
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+    }
+
+    /* UTILITY */
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo" aria-label="Dovelle Urban Forms home">
+      <div class="logo-mark">D</div>
+      <div class="logo-text">Dovelle<span>Urban Forms</span></div>
+    </a>
+    <nav class="nav" aria-label="Main navigation">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="terms.html">Terms Of Privacy</a></li>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="cookies.html">Cookies Policy</a></li>
+      <li><a href="disclaimer.html">Disclaimer</a></li>
+      <li><a href="categories.html">Categories</a></li>
+    </nav>
+    <div class="search-wrap">
+      <input type="text" id="searchInput" placeholder="Search articles..." aria-label="Search articles">
+      <button id="searchBtn" aria-label="Submit search">⌕</button>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+
+  <!-- PAGE HEADER -->
+  <section class="page-header">
+    <h1>About Dovelle Urban Forms</h1>
+    <p class="subhead">An independent editorial publication exploring the spaces we inhabit — and the ideas that shape them.</p>
+  </section>
+
+  <!-- ABOUT CONTENT -->
+  <div class="about-section">
+
+    <!-- MAIN TEXT -->
+    <div class="about-text">
+      <p class="lead">We believe that architecture and interior design are not luxuries reserved for the few — they are the silent forces that shape how every one of us lives, works, and rests.</p>
+
+      <p>Dovelle Urban Forms was founded in 2019 with a simple conviction: that thoughtful writing about the built environment should be accessible, rigorous, and useful. Not a glossy catalogue of unattainable perfection, but a practical journal for architects, designers, and anyone who wants to understand the spaces around them more deeply.</p>
+
+      <p>We publish long-form articles, guides, and critical essays on residential architecture, interior design, materials, lighting, space planning, and sustainable building. Our editorial stance is independent — we are not beholden to advertisers or trends. We write about what we believe matters: proportion, light, material honesty, and the quiet intelligence of well-made things.</p>
+
+      <h2>Why "Urban Forms"?</h2>
+
+      <p>The name reflects our focus on the intersection of the urban and the domestic. Cities are growing denser, housing is becoming smaller, and the way we design our homes has never been more consequential. "Urban Forms" is a nod to the shapes we carve out of the city — the apartments, courtyards, townhouses, and adaptive reuse projects that make modern life possible.</p>
+
+      <p>At the same time, we resist the idea that urban living must mean compromise. Small can be generous. Dense can be green. Minimal can be warm. These are the tensions we explore in every article we publish.</p>
+
+      <h2>Who We Write For</h2>
+
+      <p>Our readers are architects, interior designers, students, and informed homeowners. They are people who care about how a room feels, not just how it looks. They want to understand why a material works, how a lighting scheme functions, and what makes a floor plan succeed or fail.</p>
+
+      <p>We assume intelligence, not expertise. Whether you are specifying finishes for a new build or simply trying to make your living room feel more peaceful, our goal is to give you knowledge you can use.</p>
+
+      <h2>Our Editorial Approach</h2>
+
+      <p>Every article we publish is written by a human being with direct experience in the field. We do not use AI to generate content. We do not accept payment for positive coverage. We cite sources, credit photographers, and correct our mistakes openly.</p>
+
+      <p>We are also committed to representing the full diversity of the built environment — not just high-end residential work, but social housing, adaptive reuse, vernacular traditions, and the everyday architecture that surrounds us all.</p>
+    </div>
+
+    <!-- SIDEBAR -->
+    <aside class="about-sidebar" aria-label="About sidebar">
+
+      <div class="sidebar-block">
+        <h4>About the Editor</h4>
+        <div class="sidebar-about">
+          <strong>Elena Marchetti</strong> is an architect and writer based in Milan. She has contributed to <em>Domus</em>, <em>Dezeen</em>, and <em>Architectural Review</em>.
+        </div>
+      </div>
+
+      <div class="sidebar-block">
+        <h4>Fast Facts</h4>
+        <ul class="sidebar-list">
+          <li>Founded in 2019</li>
+          <li>Independent, reader-supported</li>
+          <li>Based in London, UK</li>
+          <li>Over 400 articles published</li>
+          <li>Read in 120+ countries</li>
+        </ul>
+      </div>
+
+      <div class="sidebar-block">
+        <h4>Topics We Cover</h4>
+        <ul class="sidebar-list">
+          <li><a href="index.html#interiors">Interior Design</a></li>
+          <li><a href="index.html#architecture">Architecture</a></li>
+          <li><a href="index.html#materials">Materials</a></li>
+          <li><a href="index.html#lighting">Lighting</a></li>
+          <li><a href="index.html#spaces">Space Planning</a></li>
+          <li><a href="index.html#furniture">Furniture</a></li>
+          <li><a href="index.html#sustainable">Sustainable Design</a></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-block">
+        <h4>Newsletter</h4>
+        <div class="sidebar-about">
+          Get weekly design intelligence. No spam.
+        </div>
+        <form style="margin-top: 0.8rem; display: flex; gap: 0.4rem;" onsubmit="event.preventDefault(); alert('Thank you for subscribing.');">
+          <input type="email" placeholder="Email" style="flex:1; padding:0.5rem 0.8rem; border:1px solid var(--border); border-radius:40px; font-size:0.8rem; outline:none;" required>
+          <button type="submit" style="background:var(--text); color:#fff; border:none; border-radius:40px; padding:0.5rem 1rem; font-size:0.8rem; cursor:pointer;">→</button>
+        </form>
+      </div>
+
+    </aside>
+  </div>
+
+  <!-- VALUES SECTION -->
+  <section class="values-section">
+    <h2>What We Stand For</h2>
+    <div class="values-grid">
+      <div class="value-card">
+        <span class="value-icon">◆</span>
+        <h3>Independence</h3>
+        <p>We are not affiliated with any brand, manufacturer, or developer. Our editorial decisions are made solely on the basis of quality and relevance.</p>
+      </div>
+      <div class="value-card">
+        <span class="value-icon">◆</span>
+        <h3>Practicality</h3>
+        <p>We believe design writing should be useful. Every article aims to leave you with knowledge you can apply to your own projects.</p>
+      </div>
+      <div class="value-card">
+        <span class="value-icon">◆</span>
+        <h3>Depth</h3>
+        <p>We publish long-form content because complex subjects deserve more than listicles. We take the time to explain the why, not just the what.</p>
+      </div>
+      <div class="value-card">
+        <span class="value-icon">◆</span>
+        <h3>Accuracy</h3>
+        <p>We fact-check, cite sources, and correct errors promptly. If we get something wrong, we say so openly.</p>
+      </div>
+      <div class="value-card">
+        <span class="value-icon">◆</span>
+        <h3>Accessibility</h3>
+        <p>Good design knowledge should not be locked behind paywalls or industry jargon. We write for a broad, intelligent audience.</p>
+      </div>
+      <div class="value-card">
+        <span class="value-icon">◆</span>
+        <h3>Sustainability</h3>
+        <p>We advocate for materials and methods that respect the planet. Sustainability is not a trend — it is a baseline requirement.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM SECTION -->
+  <section class="team-section">
+    <h2>Who We Are</h2>
+    <div class="team-grid">
+
+      <div class="team-member">
+        <div class="member-photo" style="background-image: url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop');" role="img" aria-label="Elena Marchetti, Editor-in-Chief"></div>
+        <h3>Elena Marchetti</h3>
+        <div class="role">Editor-in-Chief</div>
+        <p>Architect and writer based in Milan. Former editor at Domus. Specializes in residential architecture and material culture.</p>
+      </div>
+
+      <div class="team-member">
+        <div class="member-photo" style="background-image: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop');" role="img" aria-label="James Whitfield, Senior Editor"></div>
+        <h3>James Whitfield</h3>
+        <div class="role">Senior Editor</div>
+        <p>London-based journalist covering sustainable design, urbanism, and the intersection of architecture and policy.</p>
+      </div>
+
+      <div class="team-member">
+        <div class="member-photo" style="background-image: url('https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop');" role="img" aria-label="Priya Nair, Contributing Editor"></div>
+        <h3>Priya Nair</h3>
+        <div class="role">Contributing Editor</div>
+        <p>Interior designer and stylist. Writes about lighting, color theory, and the psychology of domestic space.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EDITORIAL PROCESS -->
+  <section class="process-section">
+    <h2>How We Work</h2>
+    <ol class="process-list">
+      <li><strong>Pitch &amp; Planning.</strong> Every article begins with a clear thesis and an outline. We ask: what will the reader learn? Why does this matter now?</li>
+      <li><strong>Research &amp; Interviews.</strong> We speak to architects, designers, manufacturers, and residents. We visit buildings when possible and consult primary sources.</li>
+      <li><strong>Writing &amp; Editing.</strong> Drafts go through at least two rounds of editing. We prioritize clarity, accuracy, and readability above all else.</li>
+      <li><strong>Fact-Checking.</strong> Claims are verified. Dimensions, material specifications, and historical references are checked against reliable sources.</li>
+      <li><strong>Publication &amp; Correction.</strong> We publish, monitor feedback, and correct errors transparently. Our readers trust us because we earn it.</li>
+    </ol>
+  </section>
+
+  <!-- CONTACT CARD -->
+  <div class="contact-card">
+    <h3>Get in Touch</h3>
+    <p>We welcome pitches, feedback, and corrections. If you have a story idea or want to collaborate, we would love to hear from you.</p>
+    <div class="contact-links">
+      <a href="contact.html">Contact Page</a>
+      <a href="mailto:editors@dovelleurbanforms.com">editors@dovelleurbanforms.com</a>
+    </div>
+  </div>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter" id="newsletter">
+    <h2>Stay informed</h2>
+    <p>Get our weekly digest of architecture and interior design stories, delivered to your inbox.</p>
+    <form id="newsletterForm">
+      <input type="email" placeholder="Your email address" required aria-label="Email address">
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo" style="margin-bottom: 0.5rem;">
+          <div class="logo-mark" style="width:32px; height:32px; font-size:1.1rem;">D</div>
+          <div class="logo-text" style="font-size:1.1rem;">Dovelle<span style="font-size:0.5rem;">Urban Forms</span></div>
+        </div>
+        <p>An independent editorial publication about interior design, architecture, and the built environment.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Sections</h4>
+        <ul>
+          <li><a href="index.html#interiors">Interiors</a></li>
+          <li><a href="index.html#architecture">Architecture</a></li>
+          <li><a href="index.html#materials">Materials</a></li>
+          <li><a href="index.html#lighting">Lighting</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Information</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="terms.html">Terms</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Follow</h4>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Pinterest</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">RSS</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Dovelle Urban Forms. All rights reserved.</span>
+      <span>Made for readers, not algorithms.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- JAVASCRIPT -->
+<script>
+  (function() {
+    // ---- SEARCH FUNCTIONALITY ----
+    const searchInput = document.getElementById('searchInput');
+    const searchBtn = document.getElementById('searchBtn');
+
+    function performSearch() {
+      const query = searchInput.value.trim().toLowerCase();
+      if (!query) {
+        alert('Please enter a search term.');
+        return;
+      }
+      // On the About page, we simply alert the user or redirect to the homepage with the query.
+      // For a real site, you'd redirect: window.location.href = 'index.html?search=' + encodeURIComponent(query);
+      alert('Searching for: "' + query + '"\n\nIn a full site, this would redirect to the homepage with search results.');
+    }
+
+    searchBtn.addEventListener('click', performSearch);
+    searchInput.addEventListener('keyup', (e) => {
+      if (e.key === 'Enter') performSearch();
+    });
+
+    // ---- NEWSLETTER FORM ----
+    const newsletterForm = document.getElementById('newsletterForm');
+    if (newsletterForm) {
+      newsletterForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        alert('Thank you for subscribing to Dovelle Urban Forms.');
+        newsletterForm.reset();
+      });
+    }
+
+  })();
+</script>
+
+</body>
+</html>
